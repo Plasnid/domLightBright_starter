@@ -1,6 +1,6 @@
 // q3. create a variable called pageBody that will use querySelector to hold onto the bodyTag
 
-// q4.  create an array with the following strings - off, yellow, magenta, cyan
+// q4.  create an array with the following strings - off, yellow, magenta, cyan, then add your 4 new colours to the array.  Make the array values the same as your css class names for the colours.
 
 /* q5.  set variables for the following
     a.  a variable for holding onto the active colour class to add to the dot
@@ -22,9 +22,9 @@ function buildHeader(){
         
         // q10.  set the text of the div to the text in the colours array
         
-        // q11.  add the classes select-colour and not-selected to your control element
+        // q11.  add the classes select-colour and not-selected to your control element.  
         
-        
+        //*  The command below lets you store data in an html tag, do not change it
         control.dataset.col = colours[i];
         // q12. add a click element to the control that will call the function colorSelectAction
         
@@ -35,6 +35,7 @@ function buildHeader(){
 function buildBoard(){
     //q14.  creat a div to contain your dot display space, call it playSpace
     
+    // the command below will make the new elements id "playSpace"
     playSpace.id = "playSpace";
     //q15.  append playSpace to the pageBody
     
@@ -46,7 +47,7 @@ function buildBoard(){
         
             //q19.  for every new number in your inner loop make an article tag and append it to thes section tag you made in the outer loop
             
-            //q20.  ad a click action to the newly made article tag and have it call dotClickAction
+            //q20.  add a click action to the newly made article tag and have it call dotClickAction
 
         }
     }
